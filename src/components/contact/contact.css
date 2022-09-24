@@ -1,0 +1,32 @@
+.contact_option{
+    background:var(--color-bg-variant);
+    text-align:center;
+    padding:1.5rem;
+    border-radius:2rem;
+    margin:0.5rem;
+}
+
+.contact_container{
+    width:58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+}
+.contact_options{
+display: flex;
+flex-direction: column;
+
+}
+
+.form{
+  text-align:center;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 1rem;
+    margin: 0.8rem;
+    border:2px solid var(--color-bg-variant);
+    border-radius: 0.55rem;
+    background: transparent;
+    color:var(--color-white);
+}

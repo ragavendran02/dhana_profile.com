@@ -1,0 +1,116 @@
+.experience_container{
+    display:grid;
+    grid-template-columns:100%;
+    gap:5%;
+}
+
+.experience_cards{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1.5rem;
+}
+
+.experience_card{
+    background:var(--color-bg-variant);
+    border-radius:1rem;
+    border: 1px solid transparent;
+    padding: 2rem;
+    text-align:center;
+}
+.experience_icon{
+    color:var(--color-primary);
+    font-size:1.2rem;
+    /* margin-bottom:0.3rem; */
+}
+.experience_card h5{
+    font-size:1rem;
+}
+
+.experience_card small{
+   color:var(--color-light);
+}
+
+.experience_content p{
+    color: var(--color-light);
+    font-size: 0.9rem;
+    padding: 1.4rem 0;
+}
+
+.bio_data{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    padding: 1rem 0 0 0;
+}
+
+/* .experience_me{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+} */
+
+ /* .experience_image{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.bio_data h5{
+    padding: 0 0 0 0.3rem;
+    /* font-size:0.5rem; */
+}
+
+.experience_me{
+    background: var(--color-bg-variant);
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    padding: 1rem;
+}
+
+.experience_icon{
+    color:var(--color-primary);
+    margin: 0.1rem 0 0 0;
+}
+
+.job_role p{
+    font-size:0.9rem;
+    padding:0.5rem 0 0 0;
+    color: var(--color-light);
+}
+
+.job_role h5{
+    font-size:1rem;  
+    padding:0;
+}
+
+.job_role{
+    display: inline-block;
+    width: 100%;
+    padding: 0 0 0 0.5rem;
+}
+.job_role ul li{
+    /* list-style-type:disc; */
+    margin: 0.3rem 0 0 1rem;
+    font-size: 0.9rem;
+}
+
+.job_role ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: var(--color-primary); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    font-size: 1rem;
+  }
+
+  .job_role ul a{
+    color: var(--color-primary);
+    border-radius: 2rem;
+  }
+
+  .weblink{
+    width: max-content;
+    background: var(--color-primary-variant);
+    padding: 0.5rem 1rem;
+    margin: 1rem 0 0 0;
+    display: block;
+    font-size:1.1rem
+  }
