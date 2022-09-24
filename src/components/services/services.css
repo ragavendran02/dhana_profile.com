@@ -17,6 +17,9 @@
     padding: 2rem 1rem;
     text-align:center;
 }
+.services_card:hover{
+    background: #375aba;
+}
 .services_icon{
     color:var(--color-primary);
     font-size:2rem;
